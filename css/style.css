@@ -1,0 +1,488 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+    
+    
+}
+
+/* navbar */
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    /* border-bottom: 9px solid; */
+    
+    
+}
+
+
+
+
+
+.navbar-menu {
+    float: right;
+}
+
+.navbar-menu li {
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    list-style: none;
+    border: 2px solid transparent;
+}
+
+
+
+.navbar-menu li a {
+    padding: 10px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(195, 195, 12);
+    font-size: smaller;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    padding-top: 10px;
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+
+/* banner */
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+/* about us */
+
+.container-about {
+    text-align: center;
+    margin: 70px;
+}
+
+.container-about img {
+    margin: 70px;
+    width: 550px;
+    padding: 8px;
+    height: 400px;
+    
+
+}
+
+.title {
+    margin-top: 180px;
+    color: rgb(195, 195, 12);
+    letter-spacing: 7px;
+    
+}
+.text {
+    
+    text-align: center;
+    color: rgb(1, 1, 87);
+    letter-spacing: 5px;
+    font-family: monospace;
+}
+
+/* activities */
+.btn {
+    color: white;
+    background-color:rgb(95, 87, 209);
+
+   
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: black;
+}
+
+
+.activity-content {
+    padding: 60px;
+    margin: -30px;
+}
+.activity-content .img {
+    padding: 50px;
+    
+}
+
+
+
+.course img {
+    padding: 40px;
+    margin: -20px;
+    margin-top: 10px;
+
+}
+
+.summer {
+    margin-top: -90px;
+}
+.course {
+    margin-top: 50px;
+    
+    
+}
+
+.course a {
+    color: rgb(1, 1, 87);
+}
+
+.course a:hover {
+    color: blueviolet;
+}
+
+.c-1 {
+    margin-top: -110px;
+    
+}
+
+.course h2 {
+    color: rgb(1, 1, 87);
+    letter-spacing: 5px;
+}
+
+
+.btn-submit {
+    color: white;
+    background-color:rgb(95, 87, 209);
+    border-style: none;
+    border-radius: 10px;
+   
+}
+.btn-submit:hover {
+    background-color: transparent;
+    color: black;
+    border-style: double;
+    
+}
+
+
+
+/* primary */
+
+
+.container-primary {
+    text-align: center;
+    margin: 70px;
+}
+
+
+.title {
+    margin-top: 180px;
+    color: rgb(195, 195, 12);
+    letter-spacing: 7px;
+    
+}
+.text {
+    
+    text-align: center;
+    color: rgb(1, 1, 87);
+    letter-spacing: 5px;
+    font-family: monospace;
+}
+
+
+
+
+
+
+/* contact us */
+
+.container-contact {
+    text-align: center;
+    margin: 70px;
+}
+
+.container-contact img {
+    margin: 70px;
+    width: 550px;
+    padding: 8px;
+    height: 400px;
+    
+
+}
+
+.title {
+    margin-top: 180px;
+    color: rgb(195, 195, 12);
+    letter-spacing: 7px;
+    
+}
+.text {
+    
+    text-align: center;
+    color: rgb(1, 1, 87);
+    letter-spacing: 5px;
+    font-family: monospace;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    padding: 100;
+    background-color: rgba(188, 119, 15, 1);
+    color: black;
+}
+
+
+
+
+
+/* .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    margin-top: 150px;
+    background-color: rgba(188, 119, 15, 1);
+    color: aliceblue;
+    box-sizing: border-box;
+} */
+
+
+
+
+
+
+
+/* sign up */
+
+
+/* 
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+.container-login {
+    width: 100%;
+    min-height: 100vh;
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+    
+}
+
+.container-login .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+
+.container-login .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.container-login .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container-login .login-email .input-group input:focus,
+.container-login .login-email .input-group input:valid {
+    border-color: #a29bfe;
+}
+
+.container-login .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container-login .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #6c5ce7;
+}
+
+
+.login-register-text {
+    color: #111;
+    font-weight: 600;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #6c5ce7;
+}
+
+@media (max-width: 430px) {
+    .container-login {
+        width: 300px;
+    }
+    .container-login .login-social {
+        display: block;
+    }
+    .container-login .login-social a {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.navbar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ */
+
+/* .navbar .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+} */
+
+/* .navbar ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+} */
+
+/* .navbar ul li a {
+    line-height: 80px;
+    color: rgb(195, 195, 12);
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+
+} */
+
+/* .navbar-menu li :hover {
+    border: 2px solid green;
+} */
+
+/* .dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    padding-top: 10px;
+    display: block;
+} */
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+}
+ */
+
+
+
